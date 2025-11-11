@@ -78,14 +78,14 @@ void main() async {
     if (!prefs.containsKey('family_contact_number') || 
         prefs.getString('family_contact_number') == null || 
         prefs.getString('family_contact_number')!.isEmpty) {
-      await prefs.setString('family_contact_number', '+91 90352 80631');
+      await prefs.setString('family_contact_number', '*****Add Family Contact Number*****');
     }
     
     // Always enable SOS auto-call by default (AI assistant talking in calls)
     await prefs.setBool('sos_auto_call_enabled', true);
     
     // Set default Gemini API key (user's API key)
-    const defaultGeminiApiKey = 'AIzaSyBLJXeWuhbiQYss5-lzRVL0dWLXMtfELCM';
+    const defaultGeminiApiKey = '*****Your Gemini API KEY HERE*****';
     if (!prefs.containsKey('gemini_api_key') || 
         prefs.getString('gemini_api_key') == null || 
         prefs.getString('gemini_api_key')!.isEmpty) {
