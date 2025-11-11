@@ -1,0 +1,36 @@
+{
+    "name": "PRAVASI AI - Travel Safety & Navigation",
+    "short_name": "PRAVASI AI",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#007AFF",
+    "theme_color": "#007AFF",
+    "description": "All-in-one travel safety, navigation, and trip management platform with AI assistance.",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "scope": "/",
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
